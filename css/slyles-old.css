@@ -50,7 +50,7 @@ img {
   align-items: center;
   gap: 40px;
 }
-.header-navigation-logo {
+.header-logo {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -62,7 +62,6 @@ img {
 }
 .header-navigation-list-anchor {
   font-weight: 500;
-  line-height: 1.5;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -90,24 +89,24 @@ img {
 .header-navigation-list-anchor:focus {
   color: #404bbf;
 }
-.header-navigation-logo-iris {
+.logo .logo-part {
   color: #2e2f42;
 }
-.header-navigation-logo {
+.header-logo {
   padding: 24px 0;
   margin-right: 76px;
 }
 
-.address {
+.contacts {
   font-style: normal;
   margin-left: auto;
 }
-.address-list {
+.contacts-list {
   display: flex;
   align-items: center;
   gap: 40px;
 }
-.address-list-item-title {
+.contacts-list-item-title {
   text-transform: none;
   color: rgba(67, 68, 85, 1);
   font-size: 16px;
@@ -117,10 +116,10 @@ img {
   display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.address-list-item-title:hover {
+.contacts-list-item-title:hover {
   color: #404bbf;
 }
-.address-list-item-title:focus {
+.contacts-list-item-title:focus {
   color: #404bbf;
 }
 
@@ -134,7 +133,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/people-office.jpg');
+    url('../images/people-desktop-x1.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,6 +149,43 @@ img {
   margin: 0 auto;
   margin-bottom: 48px;
 }
+.hero-banner-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.hero-banner-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 1);
+  background-color: #4d5ae5;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  height: 56px;
+  border: none;
+  text-align: center;
+  margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-banner-button:hover {
+  background-color: rgba(64, 75, 191, 1);
+}
+.hero-banner-button:focus {
+  background-color: #404bbf;
+}
+
+
+
+
 
 .advanteges-list {
   display: flex;
@@ -240,13 +276,8 @@ img {
   display: flex;
   gap: 24px;
 }
-.social-icon-link {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-icon-link:hover,
-.social-icon-link:focus {
-  background-color: #404bbf;
-}
+
+
 
 .our-team-list-heading {
   font-weight: 500;
@@ -281,6 +312,7 @@ img {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .social-icon-link:hover,
 .social-icon-link:focus {
   background-color: #404bbf;
@@ -358,7 +390,7 @@ footer {
   background-color: rgba(46, 47, 66, 1);
   padding: 100px 0;
 }
-.footer-logo-iris {
+.logo-part {
   color: #f4f4fd;
 }
 .footer-logo {
@@ -491,6 +523,7 @@ footer {
   visibility: visible;
   pointer-events: auto;
 }
+
 .modal {
   padding: 72px 24px 24px 24px;
   position: absolute;
